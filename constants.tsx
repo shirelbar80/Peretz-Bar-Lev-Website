@@ -10,11 +10,11 @@ import {
 import { Service, NavItem } from './types';
 
 // לוגו המשרד - מונוגרמה PB
-export const LOGO_URL = "https://i.ibb.co/Lzr9xNf/pb-logo.png";
+export const LOGO_URL = "https://raw.githubusercontent.com/shirelbar80/Peretz-Bar-Lev-Website/Dev/Logo.png";
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'דף הבית', href: 'home' },
-  { label: 'התמחיות', href: 'services' },
+  { label: 'התמחויות', href: 'services' },
   { label: 'אודותינו', href: 'about' },
   { label: 'צרו קשר', href: 'contact' },
 ];
