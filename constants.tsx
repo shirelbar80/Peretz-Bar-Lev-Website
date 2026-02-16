@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 import { Service, NavItem } from './types';
 
-// לוגו המשרד - מונוגרמה PB
+// לוגו המשרד - מונוגרמה PB בצבעי אפור וזהב (מעודכן לפי התמונה)
 export const LOGO_URL = "https://raw.githubusercontent.com/shirelbar80/Peretz-Bar-Lev-Website/Dev/Logo.png";
 
 export const NAV_ITEMS: NavItem[] = [
@@ -47,7 +47,7 @@ export const SERVICES: Service[] = [
   {
     id: 'litigation',
     title: 'ליטיגציה אזרחית',
-    description: 'ייצוג בבתי משפט ובערכאות שיפוטיות בתחומי המשפט האזרחי והמשפטי.',
+    description: 'ייצוג בבתי משפט ובערכאות שיפוטיות בתחומי המשפט האזרחי והמסחרי.',
     icon: <Scale className="w-8 h-8" />
   },
   {
@@ -61,8 +61,8 @@ export const SERVICES: Service[] = [
 export const OFFICE_DETAILS = {
   name: "פרץ בר לב ושות'",
   fullName: "פרץ בר לב ושות' - משרד עורכי דין",
-  phone: "03-1234567",
+  phone: "09-7778198",
   email: "office@pb-law.co.il",
-  address: "דרך בגין 125, מגדלי עזריאלי, תל אביב",
-  hours: "א'-ה' 08:30 - 18:30"
+  address: "רח' שחם 1, מתחם ב.ס.ר. סיטי מגדל C, פתח תקווה 4934829",
+  hours: "א'-ה' 09:00-20:00"
 };
